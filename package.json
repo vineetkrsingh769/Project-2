@@ -1,0 +1,18 @@
+{
+  "name": "tic-tak-toe",
+  "version": "1.0.0",
+  "description": "<h1>Tic Tac Toe Miltiplayer Game</h1> <div>   <h2>Steps to run the code : </h2>   <ol>     <li>Download the zip file of project and extract it. Open it in a code editor.</li>     <li>Run <i>npm init -y</i></li>     <li>Now install the dependencies -----> <i>npm i express http nodemon socket.io</i></li>     <li>Run the command -----> <i>node index.js</i></li>     <li>Go to http://localhost:3000/</li>   </ol> </div> <div>   <h1>Instruction to start the game </h1>   <h2>Video Link :</h2>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Vineet Kumar Singh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "http": "^0.0.1-security",
+    "nodemon": "^3.1.0",
+    "socket.io": "^4.7.5"
+  }
+}

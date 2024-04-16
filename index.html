@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe - Rounit Kumar Singh</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Tic-Tac-Toe Game</h1>
+
+
+    <div id="plrDtl">
+        <p id="userName">You : <span id="user"></span></p>
+        <p id="oppNameC">Opponent : <span id="oppName"></span></p>
+
+    </div>
+    <br>
+    <p id="winner"></p>
+    <p id="valueCont">You are playing as <span id="value"></span></p>
+    <br>
+    <p id="whosTurn">X's Turn</p>
+    <div>
+        <p class="inputText" id="enterName">Enter your name : </p>
+
+        <input type="text" placeholder="Name" id="name" autocomplete="off">
+    </div>
+    <button id="find">Connect to Opponent</button>
+    <img id="loading" src="loading.gif" alt="loading gif">
+
+    <div id="outerMatrix">
+        <div id="matrix">
+
+            <button id="btn1" class="btn"></button>
+            <button id="btn2" class="btn"></button>
+            <button id="btn3" class="btn"></button>
+            <button id="btn4" class="btn"></button>
+            <button id="btn5" class="btn"></button>
+            <button id="btn6" class="btn"></button>
+            <button id="btn7" class="btn"></button>
+            <button id="btn8" class="btn"></button>
+            <button id="btn9" class="btn"></button>
+        </div>
+    </div>
+
+</body>
+<script src="/socket.io/socket.io.js"></script>
+<script src="script.js"></script>
+
+</html>
